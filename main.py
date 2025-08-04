@@ -19,7 +19,7 @@ async def run():
     greeted = await load_greeted()
     username = os.getenv("goojo_3amk")
     password = os.getenv("qwerrewq123321##")
-    group_url = os.getenv("GROUP_URL")
+    group_url = os.getenv("https://www.instagram.com/direct/t/24075104438837157/")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
