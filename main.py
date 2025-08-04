@@ -17,8 +17,8 @@ async def save_greeted(users):
 
 async def run():
     greeted = await load_greeted()
-    username = os.getenv("INSTAGRAM_USERNAME")
-    password = os.getenv("INSTAGRAM_PASSWORD")
+    username = os.getenv("goojo_3amk")
+    password = os.getenv("qwerrewq123321##")
     group_url = os.getenv("GROUP_URL")
 
     async with async_playwright() as p:
